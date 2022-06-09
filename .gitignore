@@ -1,0 +1,6 @@
+h=glyphplot(a)
+for i = 1:length(h)  
+    h(i,1).Color='#FF0000'
+    h(i,2).Color='blue'
+end
+set(gcf,'
